@@ -282,7 +282,7 @@
 
 			$ua = strtolower($_SERVER['HTTP_USER_AGENT']);
 
-			$imagick = in_array('imagick', get_loaded_extensions()) && class_exists('Imagick');
+			$imagick = in_array('imagick', get_loaded_extensions()) && class_exists('Imagick'); 
 
 			$php = $connection = $permissions = $im = $browser = array( 'warn' => array(), 'pass_string' => '', 'fail' => array() );
 
